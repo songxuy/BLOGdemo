@@ -1,0 +1,50 @@
+.main{
+    padding: 60px 0 66px 0;
+    border-top: 1px solid #e9e9e9;
+    /* border-bottom: 1px solid #e9e9e9; */
+    font-size: 12px;
+}
+.main .login_left{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 480px;
+    float: left;
+    overflow: hidden;
+    background: url(../images/bg.jpg) no-repeat center;
+    background-size: cover;
+}
+.main .login_left .img_mask{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background: rgba(0,0,0,0.4);
+}
+.login_left_content .content_logo{
+    position: relative;
+    margin-top:100px;
+    margin-left:50px;
+}
+.login_left_content .conten_word{
+    z-index: 4;
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    padding: 0 5%;
+}
+.login_left_content .conten_word p{
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 24px;
+    text-align: left;
+}
+.login_left_content .conten_word .login_author{
+    padding: 10px 0;
+    text-align: right;
+    font-size: 14px;
+    color: #bbb;
+}
